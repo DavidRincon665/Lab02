@@ -16,17 +16,18 @@ public class MenuEjercicios {
         JButton btnPunto1 = new JButton("Punto 1");
         JButton btnPunto2 = new JButton("Punto 2");
         JButton btnPunto3 = new JButton("Punto 3");
+        JButton btnPunto4 = new JButton("Punto 4");
 
         // Establecer posición y tamaño de los botones
         btnPunto1.setBounds(50, 30, 200, 30);
         btnPunto2.setBounds(50, 70, 200, 30);
         btnPunto3.setBounds(50, 110, 200, 30);
-
+        btnPunto4.setBounds(50, 150, 200, 30);
         // Añadir los botones a la ventana
         frame.add(btnPunto1);
         frame.add(btnPunto2);
         frame.add(btnPunto3);
-
+        frame.add(btnPunto4);
         // Añadir ActionListener para manejar el clic en cada botón
         btnPunto1.addActionListener(new ActionListener() {
             @Override
@@ -54,7 +55,14 @@ public class MenuEjercicios {
                 punto3.main(null); // Llamar al método main de la clase Punto3
             }
         });
-
+ btnPunto4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Llamar a la clase Punto3
+                punto4 punto4 = new punto4();
+                punto4.main(null); // Llamar al método main de la clase Punto3
+            }
+        });
         // Hacer visible la ventana
         frame.setVisible(true);
     }
