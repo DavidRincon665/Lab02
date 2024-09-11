@@ -1,0 +1,33 @@
+##Fabricio Andres Benitez Gonzalez 7004299, David Alejandro Rincon Triana 7004319 lab 02
+##Introducción
+**En el mundo de la programación, los algoritmos de ordenamiento y el análisis de datos son herramientas esenciales 
+para la manipulación eficiente de grandes cantidades de información. Este laboratorio se enfoca en la implementación de varios
+algoritmos de ordenamiento y en la ejecución de cálculos estadísticos básicos, como media, mediana, varianza y desviación estándar,
+con el fin de analizar datos generados aleatoriamente. Además, se busca realizar operaciones con caracteres y desarrollar una aplicación de 
+clasificación de datos de vehículos, abarcando desde aplicaciones de consola hasta una interfaz gráfica de usuario.
+##Marco Teórico
+##El ordenamiento de datos es una de las tareas más comunes en programación, y existen diversos algoritmos diseñados para llevar a cabo esta operación. A continuación, se describen cuatro de los métodos de ordenamiento más utilizados:
+**	Merge Sort: Es un algoritmo que se basa en dividir el conjunto de datos en partes más pequeñas, ordenar esas partes y luego combinar los resultados en una lista ordenada. Es útil para manejar grandes volúmenes de datos de forma eficiente.
+**	Método de Selección: Este algoritmo funciona seleccionando de manera iterativa el elemento más pequeño (o más grande, según el orden deseado) y colocándolo en la posición correspondiente. Es simple, pero puede ser más lento comparado con otros métodos.
+**	Método de Inserción: Ordena una lista tomando un elemento a la vez y colocándolo en su posición correcta con respecto a los elementos ya ordenados. Es útil para listas pequeñas o parcialmente ordenadas.
+**	Método de la Burbuja: Este método compara pares consecutivos de elementos y los intercambia si están en el orden incorrecto. Este proceso se repite varias veces hasta que la lista está ordenada.
+##Procedimientos
+3.1. Se debe implementar un programa de consola que permita al usuario ingresar el tamaño de un arreglo, el cual será llenado con números aleatorios. El programa calculará lo siguiente:
+**Media
+**Mediana
+**Moda
+**Varianza
+**Desviación estándar
+3.2. Implemente un programa que lea una línea de caracteres y realice las siguientes operaciones:
+**	Sustituya las vocales por el carácter que más veces se repita en la línea.
+** Invierta el orden de los caracteres.
+3.3. Desarrolle un programa que ordene un arreglo de números tipo double aleatorios utilizando los métodos de ordenamiento: Burbuja, Inserción, Selección y Merge Sort. Además, registre el tiempo que tarda cada algoritmo en ordenar el arreglo para tamaños de 100, 500, 1000, 5000 y 10000 números y realice una tabla comparativa.
+3.4. Para la gestión de vehículos, implemente una clase que represente autos con las características de Marca, Modelo, Color y Kilometraje. Se debe permitir al usuario ingresar la cantidad de autos y ordenarlos por el método de ordenamiento Merge Sort o Burbuja, ya sea por modelo o kilometraje. Además, este programa debe contar con una interfaz gráfica con botones para ejecutar los distintos tipos de ordenamiento
+##Análisis de Resultados
+En este laboratorio se observaron diversas características de los algoritmos de ordenamiento y sus comportamientos frente a diferentes tamaños de datos. En particular, se destacó que los algoritmos como Merge Sort son más eficientes para volúmenes grandes de datos, mientras que métodos más simples como el Método de la Burbuja pueden resultar ineficaces para tamaños mayores. Por otro lado, el análisis de datos estadísticos, como la media, mediana y desviación estándar, permitió conocer mejor las características del conjunto de datos generados aleatoriamente.
+La sustitución de vocales por el carácter más repetido y la inversión de texto son ejemplos claros de cómo manipular cadenas de texto en programación, lo que tiene aplicaciones prácticas en diversos ámbitos. Finalmente, la creación de una clase para manejar vehículos permitió implementar conceptos de programación orientada a objetos, mientras que la interfaz gráfica añadió un nivel de usabilidad importante para el usuario.
+##Conclusiones
+Este laboratorio proporcionó un enfoque práctico para la implementación de algoritmos de ordenamiento y análisis de datos. Se pudo observar la diferencia en eficiencia 
+entre los distintos métodos, destacando la utilidad de algoritmos como Merge Sort en contextos de grandes volúmenes de datos. Además, se reforzaron conceptos clave como
+la manipulación de cadenas y el diseño orientado a objetos. La implementación de una interfaz gráfica mejoró la experiencia del usuario, facilitando la interacción con el sistema.
+
